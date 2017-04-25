@@ -1,7 +1,7 @@
 package pms;
 import java.util.Scanner;
 
-import pms.login_all.user;
+import pms.Login_All.user;
 
 public class MainClass {
 	//KHASHAM KHAN
@@ -10,7 +10,7 @@ public class MainClass {
 	public static void main(String[] args) {
 		String field;
 		reader = new Scanner(System.in);
-		login_all l = new login_all();
+		Login_All l = new Login_All();
 		System.out.println("Choose your field");
 		System.out.println("1) Admin");
 		System.out.println("2) Customer");
